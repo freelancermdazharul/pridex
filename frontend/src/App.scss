@@ -1,0 +1,188 @@
+.li-header:hover {
+  transition: 0.6s;
+  .about-us {
+    color: #32a9d1;
+    transition: 0.6s;
+    transform: scale(1.1);
+  }
+  .icona {
+    color: #32a9d1;
+    transition: 0.6s;
+    transform: scale(1.1);
+  }
+}
+.hover-item-show {
+  width: 0px;
+  height: 0px;
+  transition: 0.5s;
+}
+.li-header:hover {
+  transition: 0.5s;
+
+  .hover-item-show {
+    width: 336px;
+    height: 80px;
+    transition: 0.5s;
+  }
+  .li-show-index-two {
+    width: 210px;
+    height: 80px;
+    transition: 0.5s;
+  }
+}
+.li-show-index:hover {
+  background: #32a9d1;
+}
+.main_box:hover {
+  transition: 0.8s;
+  .overlycolor {
+    opacity: 60%;
+    transition: 0.8s;
+  }
+  .box-in-text {
+    transition: 0.5s;
+    bottom: 20px;
+  }
+  .infotextdes {
+    transition: 0.3s;
+    transform: scaleY(1);
+  }
+  .info {
+    transition: 0.3s;
+    height: 100%;
+  }
+}
+.my-image-contact {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(https://motwanigreatness.com/pridex/wp-content/uploads/2024/01/joe-holland-80zZ1s24Nag-unsplash-1.jpg);
+}
+.my-image-contact-page {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(https://e0.pxfuel.com/wallpapers/174/368/desktop-wallpaper-contact-contact-us.jpg);
+}
+.bg-image-header {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url(https://bregroup.com/wp-content/uploads/2021/10/BIM-Delivering-Information-Management-1440px-X-400px-Alex-v13-scaled-1440x440.jpg);
+}
+.foooter-ul-li {
+  transition: 0.3s;
+}
+.footerLink {
+  transition: 0.3s;
+}
+.foooter-ul-li:hover {
+  transition: 0.3s;
+  transform: scale(1.1);
+
+  .footerLink {
+    transition: 0.3s;
+    color: #32a9d1;
+    font-style: italic;
+  }
+}
+.lifooter-information {
+  transition: 0.5s;
+}
+.lifooter-information:hover {
+  transition: 0.5s;
+  .footer-icons {
+    transition: 0.5s;
+    color: red;
+  }
+}
+.footer-followus {
+  svg {
+    font-size: 20px;
+    color: #ffffff;
+  }
+}
+.image-design-clip {
+  object-fit: cover;
+  object-position: center center;
+  filter: brightness(100%) contrast(100%) saturate(100%) blur(0px)
+    hue-rotate(0deg);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  clip-path: polygon(
+    50% 0%,
+    83% 12%,
+    100% 43%,
+    94% 78%,
+    68% 100%,
+    32% 100%,
+    6% 78%,
+    0% 43%,
+    17% 12%
+  );
+}
+.image-end-flex {
+  justify-content: flex-end;
+}
+.derector-nth-child:nth-child(even) {
+  flex-direction: row-reverse;
+
+  .name-of-chip {
+    color: green;
+  }
+  .image-end-flex {
+    justify-content: start;
+  }
+}
+.slider-fad-in {
+  transform: scale(1);
+  animation: zoo 7s infinite;
+}
+
+@keyframes zoo {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+.activePcHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+@media screen and (max-width: 764px) {
+  .derector-nth-child {
+    flex-direction: column-reverse;
+  }
+  .derector-nth-child:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+  .image-end-flex {
+    justify-content: center;
+  }
+  .footer-des-mobail {
+    margin-top: 18rem;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  a {
+    cursor: none;
+  }
+  .footer-des-mobail {
+    margin-top: 8rem;
+  }
+}
